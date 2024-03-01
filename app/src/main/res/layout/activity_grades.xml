@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    tools:context=".GradesActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/grades_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginVertical="24dp"
+            android:fontFamily="@font/roboto_mono"
+            android:gravity="center"
+            android:text="КЛАСС ОБУЧЕНИЯ"
+            android:textColor="@android:color/white"
+            android:textSize="35dp"
+            app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="10dp"
+            android:gravity="center">
+            <Button
+                android:id="@+id/grades_button2"
+                style="@style/RoundButton"
+                android:onClick="onGradesButtonPress"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/grades_button3"
+                style="@style/RoundButton"
+                android:onClick="onGradesButtonPress"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/grades_button4"
+                style="@style/RoundButton"
+                android:onClick="onGradesButtonPress"
+                android:text="4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="10dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/grades_button5"
+                style="@style/RoundButton"
+                android:onClick="onGradesButtonPress"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/grades_button6"
+                style="@style/RoundButton"
+                android:onClick="onGradesButtonPress"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/grades_button7"
+                style="@style/RoundButton"
+                android:onClick="onGradesButtonPress"
+                android:text="7" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="10dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/grades_button8"
+                style="@style/RoundButton"
+                android:onClick="onGradesButtonPress"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/grades_button9"
+                style="@style/RoundButton"
+                android:onClick="onGradesButtonPress"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/grades_button10"
+                style="@style/RoundButton"
+                android:onClick="onGradesButtonPress"
+                android:text="10" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="10dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/grades_button11"
+                style="@style/RoundButton"
+                android:onClick="onGradesButtonPress"
+                android:text="11" />
+
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

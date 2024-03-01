@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="textbook_part_1">Учебник. Часть 1</string>
+    <string name="textbook_part_2">Учебник. Часть 2</string>
+    <string name="workbook">Рабочая тетрадь</string>
+
+    <string-array name="common_grade">
+        <item>@string/textbook_part_1</item>
+        <item>@string/textbook_part_2</item>
+        <item>@string/workbook</item>
+    </string-array>
+
+    <string-array name="grade2">
+        <item>@string/textbook_part_1</item>
+        <item>@string/textbook_part_2</item>
+        <item>@string/workbook</item>
+    </string-array>
+
+    <string-array name="grade3">
+        <item>@string/textbook_part_1</item>
+        <item>@string/textbook_part_2</item>
+        <item>@string/workbook</item>
+    </string-array>
+
+    <string-array name="grade4">
+        <item>@string/textbook_part_1</item>
+        <item>@string/textbook_part_2</item>
+        <item>@string/workbook</item>
+    </string-array>
+
+
+    <string-array name="grade5">
+        <item>@string/textbook_part_1</item>
+        <item>@string/textbook_part_2</item>
+    </string-array>
+
+    <string-array name="grade6">
+        <item>@string/textbook_part_1</item>
+        <item>@string/textbook_part_2</item>
+        <item>@string/workbook</item>
+    </string-array>
+
+    <string-array name="grade7">
+        <item>@string/textbook_part_1</item>
+        <item>@string/textbook_part_2</item>
+        <item>@string/workbook</item>
+    </string-array>
+
+    <string-array name="grade8">
+        <item>@string/textbook_part_1</item>
+        <item>@string/textbook_part_2</item>
+        <item>@string/workbook</item>
+    </string-array>
+
+    <string-array name="grade9">
+        <item>@string/textbook_part_1</item>
+        <item>@string/textbook_part_2</item>
+        <item>@string/workbook</item>
+    </string-array>
+
+    <string-array name="grade10">
+        <item>@string/textbook_part_1</item>
+        <item>@string/workbook</item>
+    </string-array>
+
+    <string-array name="grade11">
+        <item>@string/textbook_part_1</item>
+        <item>@string/workbook</item>
+    </string-array>
+
+</resources>
