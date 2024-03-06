@@ -2,6 +2,7 @@ package ru.mixinspace.r_en_audio;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
@@ -29,7 +30,7 @@ public class PartsActivity extends AppCompatActivity {
         grade = arguments.getString("grade");
 
         String gradeName = "grade" + grade;
-        int gradeResourceId = getResources().getIdentifier(gradeName, "array", getPackageName());
+        @SuppressLint("DiscouragedApi") int gradeResourceId = getResources().getIdentifier(gradeName, "array", getPackageName());
 
 
 
@@ -49,31 +50,29 @@ public class PartsActivity extends AppCompatActivity {
                     TableRow.LayoutParams.WRAP_CONTENT));
             tableRow.setGravity(Gravity.CENTER);
 
-            Button button = new Button(this);
-            button.setId(View.generateViewId());
-            button.setText(buttonText);
-            button.setTextSize(TypedValue.COMPLEX_UNIT_SP, 23);
-
             TableRow.LayoutParams layoutParams = new TableRow.LayoutParams(
                     TableRow.LayoutParams.MATCH_PARENT,
                     TableRow.LayoutParams.WRAP_CONTENT
             );
 
             layoutParams.setMargins(12, 12, 12, 12);
+
+            Button button = new Button(this);
+            button.setId(View.generateViewId());
+            button.setText(buttonText);
+            button.setTextSize(TypedValue.COMPLEX_UNIT_SP, 23);
+
             button.setPadding(48, 48, 48, 48);
 
             button.setLayoutParams(layoutParams);
 
             button.setBackgroundTintList(ColorStateList.valueOf(getColor(R.color.button_background_color)));
 
-            button.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Intent intent = new Intent(PartsActivity.this, LessonsActivity.class);
-                    intent.putExtra("grade", grade);
-                    intent.putExtra("part", buttonText);
-                    startActivity(intent);
-                }
+            button.setOnClickListener(view -> {
+                Intent intent = new Intent(PartsActivity.this, LessonsActivity.class);
+                intent.putExtra("grade", grade);
+                intent.putExtra("part", buttonText);
+                startActivity(intent);
             });
 
             tableRow.addView(button);

@@ -2,22 +2,29 @@ package ru.mixinspace.r_en_audio;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
+import android.content.res.ColorStateList;
+import android.content.res.TypedArray;
 import android.content.res.XmlResourceParser;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 
+import org.xmlpull.v1.XmlPullParser;
+import org.xmlpull.v1.XmlPullParserException;
+
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class LessonsActivity extends AppCompatActivity {
-
-    private String grade;
-    private String part;
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,20 +32,12 @@ public class LessonsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_lessons);
 
         Bundle arguments = getIntent().getExtras();
-        grade = arguments.getString("grade");
-        part = arguments.getString("part");
-
-        String gradeName = "grade" + grade;
-        int gradeResourceId = getResources().getIdentifier(gradeName, "array", getPackageName());
-
-        Log.println(Log.DEBUG, "msg", part);
+        String grade = arguments.getString("grade");
+        String part = arguments.getString("part");
 
         List<Audio> audioData = getAudioDataFromXml();
 
-        if (gradeResourceId != 0) {
-            String[] gradeArray = getResources().getStringArray(gradeResourceId);
-            createButtons(audioData);
-        }
+        createButtons(audioData);
     }
 
     private void createButtons(List<Audio> audioData) {
@@ -46,19 +45,21 @@ public class LessonsActivity extends AppCompatActivity {
 
         for (Audio audio : audioData) {
             TableRow tableRow = new TableRow(this);
-            tableRow.setLayoutParams(new TableLayout.LayoutParams(
-                    TableLayout.LayoutParams.MATCH_PARENT,
-                    TableLayout.LayoutParams.WRAP_CONTENT
-            ));
+            TableRow.LayoutParams layoutParams = new TableRow.LayoutParams(
+                    TableRow.LayoutParams.MATCH_PARENT,
+                    TableRow.LayoutParams.WRAP_CONTENT
+            );
+
+            layoutParams.setMargins(12, 12, 12, 12);
 
             Button button = new Button(this);
             button.setText(audio.getAudioName());
             button.setGravity(Gravity.CENTER);
-            button.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    // Add your button click logic here
-                }
+            button.setPadding(48, 48, 48, 48);
+            button.setTextSize(TypedValue.COMPLEX_UNIT_SP, 17);
+            button.setBackgroundTintList(ColorStateList.valueOf(getColor(R.color.button_background_color)));
+            button.setOnClickListener(view -> {
+                // Add your button click logic here
             });
 
             tableRow.addView(button);
@@ -68,55 +69,21 @@ public class LessonsActivity extends AppCompatActivity {
 
     private List<Audio> getAudioDataFromXml() {
 
+        @SuppressLint("DiscouragedApi") int audioResourceID = getResources().getIdentifier("audio_list2_1", "array", getPackageName());
+        String[] audios = getResources().getStringArray(audioResourceID);
         List<Audio> audioList = new ArrayList<>();
 
-        try (XmlResourceParser parser = getResources().getXml(R.xml.audio_data)) {
-            int eventType = parser.getEventType();
-
-            while (eventType != XmlResourceParser.END_DOCUMENT) {
-                if (eventType == XmlResourceParser.START_TAG && parser.getName().equals("audio")) {
-                    String audioName = "";
-                    String pageNumber = "";
-                    String audioNumber = "";
-                    String audioLink = "";
-
-                    // Parse audio data
-                    while (eventType != XmlResourceParser.END_TAG || !parser.getName().equals("audio")) {
-                        if (eventType == XmlResourceParser.START_TAG) {
-                            switch (parser.getName()) {
-                                case "audio_name":
-                                    audioName = parser.nextText();
-                                    break;
-                                case "page_number":
-                                    pageNumber = parser.nextText();
-                                    break;
-                                case "audio_number":
-                                    audioNumber = parser.nextText();
-                                    break;
-                                case "audio_link":
-                                    audioLink = parser.nextText();
-                                    break;
-                            }
-                        }
-                        eventType = parser.next();
-                    }
-
-                    audioList.add(new Audio(audioName, pageNumber, audioNumber, audioLink));
-                }
-
-                eventType = parser.next();
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
+        for(String audio : audios){
+            String[] audiocomponets = audio.split(";");
+            audioList.add(new Audio(
+                    audiocomponets[0],
+                    audiocomponets[1],
+                    audiocomponets[2],
+                    audiocomponets[3])
+            );
         }
 
         return audioList;
-
-        return List.of(
-                new Audio("Аудиозапись № 1 к заданию 1", "3", "1", "https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik3-1/audio/track_1.mp3"),
-                new Audio("Аудиозапись № 2 к заданию 4", "5", "2", "https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik3-1/audio/track_2.mp3"),
-                new Audio("Аудиозапись № 3 к заданию 7", "6", "3", "https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik3-1/audio/track_3.mp3")
-        );
     }
 
     // Data class to represent audio information
@@ -135,6 +102,18 @@ public class LessonsActivity extends AppCompatActivity {
 
         public String getAudioName() {
             return audioName;
+        }
+
+        public String getPageNumber() {
+            return pageNumber;
+        }
+
+        public String getAudioNumber() {
+            return audioNumber;
+        }
+
+        public String getAudioLink() {
+            return audioLink;
         }
     }
 }
