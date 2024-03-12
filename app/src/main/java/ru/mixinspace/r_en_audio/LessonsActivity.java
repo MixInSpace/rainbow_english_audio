@@ -1,30 +1,20 @@
 package ru.mixinspace.r_en_audio;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.annotation.SuppressLint;
-import android.content.res.ColorStateList;
-import android.content.res.TypedArray;
-import android.content.res.XmlResourceParser;
-import android.os.AsyncTask;
+import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
-import android.view.View;
 import android.widget.Button;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 
-import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserException;
+import androidx.appcompat.app.AppCompatActivity;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class LessonsActivity extends AppCompatActivity {
-    
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,10 +46,13 @@ public class LessonsActivity extends AppCompatActivity {
             button.setText(audio.getAudioName());
             button.setGravity(Gravity.CENTER);
             button.setPadding(48, 48, 48, 48);
-            button.setTextSize(TypedValue.COMPLEX_UNIT_SP, 17);
-            button.setBackgroundTintList(ColorStateList.valueOf(getColor(R.color.button_background_color)));
+            button.setTextSize(TypedValue.COMPLEX_UNIT_FRACTION, 40);
+            button.setBackgroundTintList(getColorStateList(R.color.button_background_color));
             button.setOnClickListener(view -> {
-                // Add your button click logic here
+                Intent intent = new Intent(LessonsActivity.this, PlayerActivity.class);
+                intent.putExtra("audio_name", audio.getAudioName());
+                intent.putExtra("audio_link", audio.getAudioLink());
+                startActivity(intent);
             });
 
             tableRow.addView(button);
@@ -68,12 +61,11 @@ public class LessonsActivity extends AppCompatActivity {
     }
 
     private List<Audio> getAudioDataFromXml() {
-
-        @SuppressLint("DiscouragedApi") int audioResourceID = getResources().getIdentifier("audio_list2_1", "array", getPackageName());
+        int audioResourceID = getResources().getIdentifier("audio_list2_1", "array", getPackageName());
         String[] audios = getResources().getStringArray(audioResourceID);
         List<Audio> audioList = new ArrayList<>();
 
-        for(String audio : audios){
+        for (String audio : audios) {
             String[] audiocomponets = audio.split(";");
             audioList.add(new Audio(
                     audiocomponets[0],

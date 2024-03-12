@@ -4,16 +4,22 @@
     android:layout_height="match_parent"
     android:background="@color/background_dark">
 
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/top_bar"
+        android:name="ru.mixinspace.r_en_audio.TopBarFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_bar">
 
         <TableLayout
             android:id="@+id/tableLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:stretchColumns="*">
-        </TableLayout>
+            android:stretchColumns="*" />
 
     </ScrollView>
 </RelativeLayout>

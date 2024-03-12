@@ -11,18 +11,24 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/icon"
         android:label="@string/app_name"
-        android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".PlayerActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
             android:name=".LessonsActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".PartsActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".GradesActivity"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
