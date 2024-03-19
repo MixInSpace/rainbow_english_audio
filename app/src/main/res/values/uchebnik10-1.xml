@@ -1,0 +1,269 @@
+<?xml version="1.0" ?>
+<resources>
+  <string-array name="audio_list10_1">
+    <item>
+      <audio_name>Аудиозапись № 1 к упражнению 7А на Стр.8;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/001.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 2 к упражнению 1 на Стр.9;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/002.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 3 к упражнению 5 на Стр.11;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/003.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 4 к упражнению 1 на Стр.14;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/004.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 5 к упражнению 1 на Стр.17;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/005.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 6 к упражнению 5В на Стр.19;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/006.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 7 к упражнению 1 на Стр.21;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/007.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 8 к упражнению 2 на Стр.22;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/008.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 9 к упражнению 1 на Стр.25;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/009.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 10 к упражнению 3 на Стр.25;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/010.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 11 к упражнению 1А на Стр.29;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/011.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 12 к упражнению 1 на Стр.34;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/012.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 13 к упражнению 5 на Стр.36;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/013.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 14 к упражнению 1 на Стр.38;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/014.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 15 к упражнению 1 на Стр.43;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/015.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 16 к упражнению 1 на Стр.48;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/016.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 17 к упражнению 1 на Стр.52;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/017.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 18 к упражнению 2 на Стр.57;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/018.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 19 к упражнению 4 на Стр.58;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/019.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 20 к упражнению 1 на Стр.60;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/020.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 21 к упражнению 3 на Стр.61;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/021.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 22 к упражнению 1 на Стр.65;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/022.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 23 к упражнению 3 на Стр.65;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/023.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 24 к упражнению 1 на Стр.69;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/024.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 25 к упражнению 2 на Стр.69;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/025.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 26 к упражнению 1 на Стр.73;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/026.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 27 к упражнению 1 на Стр.78;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/027.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 28 к упражнению 1 на Стр.81;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/028.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 29 к упражнению 1 на Стр.87;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/029.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 30 к упражнению 1 на Стр.91;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/030.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 31 к упражнению 3 на Стр.92;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/031.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 32 к упражнению 1 на Стр.97;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/032.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 33 к упражнению 1 на Стр.101;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/033.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 34 к упражнению 1 на Стр.104;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/034.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 35 к упражнению 1A на Стр.109;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/035.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 36 к упражнению 1 на Стр.113;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/036.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 37 к упражнению 2 на Стр.113;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/037.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 38 к упражнению 1 на Стр.118;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/038.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 39 к упражнению 1 на Стр.123;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/039.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 40 к упражнению 1 на Стр.127;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/040.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 41 к упражнению 4 на Стр.129;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/041.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 42 к упражнению 1 на Стр.132;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/042.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 43 к упражнению 1 на Стр.136;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/043.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 44 к упражнению 3 на Стр.137;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/044.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 45 к упражнению 1 на Стр.141;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/045.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 46 к упражнению 1 на Стр.146;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/046.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 47 к упражнению 4 на Стр.147;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/047.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 48 к упражнению 1 на Стр.150;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/048.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 49 к упражнению 4А на Стр.151;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/049.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 50 к упражнению 1 на Стр.154;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/050.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 51 к упражнению 1 на Стр.158;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/051.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 52 к упражнению 1 на Стр.164;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/052.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 53 к упражнению 1 на Стр.168;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/053.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 54 к упражнению 3 на Стр.169;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/054.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 55 к упражнению 1 на Стр.172;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/055.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 56 к упражнению 1 на Стр.176;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/056.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 57 к упражнению 1 на Стр.180;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/057.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 58 к упражнению 1 на Стр.185;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/058.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 59 к упражнению 1 на Стр.189;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/059.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 60 к упражнению 1 на Стр.192;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/060.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 61 к упражнению 4 на Стр.193;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/061.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 62 к упражнению 1 на Стр.196;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/062.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 63 к упражнению 1 на Стр.202;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/063.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 64 к упражнению 4 на Стр.203;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/064.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 65 к упражнению 1 на Стр.206;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/065.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 66 к упражнению 1 на Стр.210;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik-10-new/066.mp3;</audio_link>
+    </item>
+  </string-array>
+</resources>

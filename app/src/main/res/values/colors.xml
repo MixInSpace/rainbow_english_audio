@@ -13,4 +13,6 @@
     <color name="medium">#9a8c98</color>
     <color name="medium_dark">#4a4e69</color>
     <color name="dark">#22223b</color>
+    <color name="button_not_pressed">#2e325c</color>
+    <color name="button_pressed">#202443</color>
 </resources>

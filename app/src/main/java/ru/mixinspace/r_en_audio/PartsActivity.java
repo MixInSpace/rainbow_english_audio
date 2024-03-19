@@ -21,6 +21,10 @@ public class PartsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_parts);
 
+        View decodeView = getWindow().getDecorView();
+
+        int options = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_FULLSCREEN;
+        decodeView.setSystemUiVisibility(options);
 
         Bundle arguments = getIntent().getExtras();
         grade = arguments.getString("grade");
@@ -65,7 +69,7 @@ public class PartsActivity extends AppCompatActivity {
             button.setBackgroundTintList(getColorStateList(R.color.button_background_color));
 
             button.setOnClickListener(view -> {
-                Intent intent = new Intent(PartsActivity.this, LessonsActivity.class);
+                Intent intent = new Intent(PartsActivity.this, PlayerActivity.class);
                 intent.putExtra("grade", grade);
                 intent.putExtra("part", buttonText);
                 startActivity(intent);
@@ -73,6 +77,16 @@ public class PartsActivity extends AppCompatActivity {
 
             tableRow.addView(button);
             tableLayout.addView(tableRow);
+        }
+    }
+
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+        if(hasFocus) {
+            View decodeView = getWindow().getDecorView();
+
+            int options = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_FULLSCREEN;
+            decodeView.setSystemUiVisibility(options);
         }
     }
 

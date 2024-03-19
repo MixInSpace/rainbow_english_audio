@@ -1,0 +1,285 @@
+<?xml version="1.0" ?>
+<resources>
+  <string-array name="audio_list4_2">
+    <item>
+      <audio_name>Аудиозапись № 100 к заданию 1 на Стр.3;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_1.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 101 к заданию 5.А на Стр.5;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_2.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 102 к заданию 6.A на Стр.5;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_3.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 102 к упражнению 6.В на Стр.6;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_4.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 102 к упражнению 6.С на Стр.6;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_5.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 103 к заданию 1 на Стр.7;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_6.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 104 к заданию 2.А на Стр.7;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_7.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 104 к заданию 2.B на Стр.8;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_8.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 105 к заданию 3.А на Стр.8;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_9.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 106 к заданию 1 на Стр.12;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_10.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 107 к заданию 6.A на Стр.15;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_11.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 108 к заданию 1 на Стр.17;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_12.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 109 к рамке на с. 19 на Стр.19;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_13.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 110 к заданию 6 на Стр.21;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_14.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 111 к заданию 7 на Стр.22;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_15.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 112 к заданию 1 на Стр.23;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_16.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 113 к заданию 4.A на Стр.24;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_17.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 114 к упражнению 4.В на Стр.24;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_18.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 115 к заданию 7.А на Стр.27;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_19.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 116 к заданию 1 на Стр.28;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_20.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 117 к заданию 3 на Стр.29;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_21.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 118 к заданию 4.B на Стр.29;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_22.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 119 к заданию 5.А на Стр.30;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_23.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 120 к заданию 1 на Стр.33;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_24.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 121 к заданию 2 на Стр.33;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_25.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 122 к заданию 7 на Стр.36;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_26.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 123 к заданию 1 на Стр.38;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_27.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 124 к заданию 2 на Стр.38;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_28.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 125 к заданию 3 на Стр.38;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_29.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 126 к заданию 6 на Стр.40;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_30.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 127 к заданию 1 на Стр.42;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_31.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 128 к заданию 2 на Стр.42;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_32.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 129 к заданию 5.B на Стр.44;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_33.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 130 к заданию 1 на Стр.46;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_34.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 131 к заданию 2 на Стр.46;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_35.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 132 к заданию 4 на Стр.48;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_36.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 133 к рамке после задания 5 на Стр.49;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_37.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 134 к заданию 1 на Стр.51;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_38.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 135 к заданию 3.А на Стр.51;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_39.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 136 к заданию 1 на Стр.55;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_40.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 137 к заданию 2 на Стр.56;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_41.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 138 к заданию 5.А на Стр.58;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_42.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 138 к заданию 5.В на Стр.58;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_43.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 139 к заданию 6 на Стр.59;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_44.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 140 к заданию 1 на Стр.60;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_45.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 141 к заданию 1 на Стр.64;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_46.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 142 к заданию 2 на Стр.65;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_47.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 143 к заданию 7 на Стр.69;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_48.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 144 к заданию 1.А на Стр.70;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_49.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 145 к заданию 3 на Стр.72;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_50.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 146 к заданию 4 на Стр.73;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_51.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 147 к заданию 5 на Стр.73;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_52.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 148 к заданию 6 на Стр.73;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_53.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 149 к заданию 1 на Стр.74;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_54.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 150 к заданию 2 на Стр.74;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_55.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 151 к рамке на с. 76 на Стр.76;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_56.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 151 к рамке на с. 77 на Стр.77;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_57.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 152 к заданию 1 на Стр.78;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_58.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 153 к заданию 5 на Стр.80;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_59.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 154 к заданию 1 на Стр.83;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_60.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 155 к заданию 6.А на Стр.87;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_61.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 156 к заданию 1 на Стр.88;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_62.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 157 к заданию 3 на Стр.90;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_63.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 158 к заданию 1 на Стр.94;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_64.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 159 к заданию 3 на Стр.95;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_65.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 160 к заданию 5.А на Стр.97;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_66.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 161 к заданию 6 на Стр.98;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_67.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 162 к заданию 1 на Стр.99;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_68.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 163 к заданию 2 на Стр.100;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_69.mp3;</audio_link>
+    </item>
+    <item>
+      <audio_name>Аудиозапись № 164 к заданию 7 на Стр.104;</audio_name>
+      <audio_link>https://rosuchebnik.ru/kompleks_data/rainbow/audio/uchebnik4-2/audio/track_70.mp3;</audio_link>
+    </item>
+  </string-array>
+</resources>

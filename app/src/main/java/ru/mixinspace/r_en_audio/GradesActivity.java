@@ -19,6 +19,10 @@ public class GradesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_grades);
 
+        View decodeView = getWindow().getDecorView();
+        int options =  View.SYSTEM_UI_FLAG_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_FULLSCREEN;
+        decodeView.setSystemUiVisibility(options);
+
         WindowManager windowManager = (WindowManager) getSystemService(Context.WINDOW_SERVICE);
         DisplayMetrics displayMetrics = new DisplayMetrics();
         windowManager.getDefaultDisplay().getMetrics(displayMetrics);
@@ -40,10 +44,20 @@ public class GradesActivity extends AppCompatActivity {
 
 
     public void onGradesButtonPress(View v) {
-        Button b = (Button) v;
-        String b_text = b.getText().toString();
+        Button button = (Button) v;
+        String buttonText = button.getText().toString();
         Intent intent = new Intent(this, PartsActivity.class);
-        intent.putExtra("grade", b_text);
+        intent.putExtra("grade", buttonText);
         startActivity(intent);
+    }
+
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+        if(hasFocus) {
+            View decodeView = getWindow().getDecorView();
+
+            int options = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_FULLSCREEN;
+            decodeView.setSystemUiVisibility(options);
+        }
     }
 }

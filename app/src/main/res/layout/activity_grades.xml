@@ -50,7 +50,7 @@
                 style="@style/RoundButton"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_5"
+                android:background="@drawable/rounded_button_5"
                 android:onClick="onGradesButtonPress"
                 android:text="2"/>
 
@@ -59,7 +59,7 @@
                 style="@style/RoundButton"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_5"
+                android:background="@drawable/rounded_button_5"
                 android:onClick="onGradesButtonPress"
                 android:text="3"/>
 
@@ -68,7 +68,7 @@
                 style="@style/RoundButton"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_5"
+                android:background="@drawable/rounded_button_5"
                 android:onClick="onGradesButtonPress"
                 android:text="4"/>
         </LinearLayout>
@@ -85,7 +85,7 @@
                 style="@style/RoundButton"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_5"
+                android:background="@drawable/rounded_button_5"
                 android:onClick="onGradesButtonPress"
                 android:text="5"/>
 
@@ -94,7 +94,7 @@
                 style="@style/RoundButton"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_5"
+                android:background="@drawable/rounded_button_5"
                 android:onClick="onGradesButtonPress"
                 android:text="6"/>
 
@@ -103,7 +103,7 @@
                 style="@style/RoundButton"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_5"
+                android:background="@drawable/rounded_button_5"
                 android:onClick="onGradesButtonPress"
                 android:text="7"/>
         </LinearLayout>
@@ -120,7 +120,7 @@
                 style="@style/RoundButton"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_5"
+                android:background="@drawable/rounded_button_5"
                 android:onClick="onGradesButtonPress"
                 android:text="8" />
 
@@ -129,7 +129,7 @@
                 style="@style/RoundButton"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_5"
+                android:background="@drawable/rounded_button_5"
                 android:onClick="onGradesButtonPress"
                 android:text="9" />
 
@@ -138,7 +138,7 @@
                 style="@style/RoundButton"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_5"
+                android:background="@drawable/rounded_button_5"
                 android:onClick="onGradesButtonPress"
                 android:text="10" />
         </LinearLayout>
@@ -155,7 +155,7 @@
                 style="@style/RoundButton"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_5"
+                android:background="@drawable/rounded_button_5"
                 android:onClick="onGradesButtonPress"
                 android:text="11" />
         </LinearLayout>
