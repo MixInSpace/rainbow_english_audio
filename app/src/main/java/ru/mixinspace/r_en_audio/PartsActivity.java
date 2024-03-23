@@ -21,16 +21,11 @@ public class PartsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_parts);
 
-        View decodeView = getWindow().getDecorView();
-
-        int options = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_FULLSCREEN;
-        decodeView.setSystemUiVisibility(options);
-
         Bundle arguments = getIntent().getExtras();
         grade = arguments.getString("grade");
 
         String gradeName = "grade" + grade;
-        @SuppressLint("DiscouragedApi") int gradeResourceId = getResources().getIdentifier(gradeName, "array", getPackageName());
+        int gradeResourceId = getResources().getIdentifier(gradeName, "array", getPackageName());
 
 
         if (gradeResourceId != 0) {
@@ -67,6 +62,7 @@ public class PartsActivity extends AppCompatActivity {
             button.setLayoutParams(layoutParams);
 
             button.setBackgroundTintList(getColorStateList(R.color.button_background_color));
+            button.setBackground(getDrawable(R.drawable.rounded_button_10));
 
             button.setOnClickListener(view -> {
                 Intent intent = new Intent(PartsActivity.this, PlayerActivity.class);
@@ -79,15 +75,4 @@ public class PartsActivity extends AppCompatActivity {
             tableLayout.addView(tableRow);
         }
     }
-
-    @Override
-    public void onWindowFocusChanged(boolean hasFocus) {
-        if(hasFocus) {
-            View decodeView = getWindow().getDecorView();
-
-            int options = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_FULLSCREEN;
-            decodeView.setSystemUiVisibility(options);
-        }
-    }
-
 }

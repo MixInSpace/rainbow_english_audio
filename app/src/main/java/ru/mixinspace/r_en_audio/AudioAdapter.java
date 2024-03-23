@@ -35,7 +35,7 @@ public class AudioAdapter extends RecyclerView.Adapter<AudioAdapter.MyViewHolder
     public void onBindViewHolder(@NonNull AudioAdapter.MyViewHolder holder, int position) {
         AudioList list2 = list.get(holder.getAdapterPosition());
 
-        if (list2.isPlaying()){
+        if (list2.isPlaying() || (!audioChangeListener.isPreparing() && list2.isPlaying())){
             playingPosition = holder.getAdapterPosition();
             holder.rootLayout.setBackgroundResource(R.drawable.selected_rounded_10);
         } else {
@@ -44,10 +44,12 @@ public class AudioAdapter extends RecyclerView.Adapter<AudioAdapter.MyViewHolder
 
         holder.title.setText(list2.getTitle());
         holder.rootLayout.setOnClickListener(view -> {
-            list.get(playingPosition).setPlaying(false);
-            list2.setPlaying(true);
-            audioChangeListener.onChanged(position);
-            notifyDataSetChanged();
+            if(!audioChangeListener.isPreparing()) {
+                list.get(playingPosition).setPlaying(false);
+                list2.setPlaying(true);
+                audioChangeListener.onChanged(holder.getAdapterPosition());
+                notifyDataSetChanged();
+            }
         });
     }
 
@@ -67,5 +69,6 @@ public class AudioAdapter extends RecyclerView.Adapter<AudioAdapter.MyViewHolder
             rootLayout = itemView.findViewById(R.id.root_layout);
             title = itemView.findViewById(R.id.audio_title);
         }
+
     }
 }

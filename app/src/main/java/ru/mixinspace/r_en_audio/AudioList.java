@@ -5,9 +5,9 @@ import java.net.URL;
 public class AudioList {
     private String title;
     private boolean isPlaying;
-    private URL audioLink;
+    private String audioLink;
 
-    public AudioList(String title, URL audioLink, boolean isPlaying) {
+    public AudioList(String title, String audioLink, boolean isPlaying) {
         this.title = title;
         this.isPlaying = isPlaying;
         this.audioLink = audioLink;
@@ -21,7 +21,7 @@ public class AudioList {
         return isPlaying;
     }
 
-    public URL getAudioLink() {
+    public String getAudioLink() {
         return audioLink;
     }
 
