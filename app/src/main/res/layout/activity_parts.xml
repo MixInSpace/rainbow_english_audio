@@ -4,11 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_dark"
-    tools:context=".PartsActivity">
+    tools:context=".activity.PartsActivity">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/top_bar"
-        android:name="ru.mixinspace.r_en_audio.TopBarFragment"
+        android:name="ru.mixinspace.r_en_audio.fragments.TopBarFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 

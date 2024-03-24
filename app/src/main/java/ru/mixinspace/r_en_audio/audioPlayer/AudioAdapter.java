@@ -1,4 +1,4 @@
-package ru.mixinspace.r_en_audio;
+package ru.mixinspace.r_en_audio.audioPlayer;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -12,9 +12,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+import ru.mixinspace.r_en_audio.R;
+
 public class AudioAdapter extends RecyclerView.Adapter<AudioAdapter.MyViewHolder> {
 
-    private final List<AudioList> list;
+    private List<AudioList> list;
     private final Context context;
     private int playingPosition = 0;
     private final AudioChangeListener audioChangeListener;
@@ -51,6 +53,11 @@ public class AudioAdapter extends RecyclerView.Adapter<AudioAdapter.MyViewHolder
                 notifyDataSetChanged();
             }
         });
+    }
+
+    public void updateList(List<AudioList> list){
+        this.list = list;
+        notifyDataSetChanged();
     }
 
     @Override

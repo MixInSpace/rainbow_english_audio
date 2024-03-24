@@ -1,6 +1,5 @@
-package ru.mixinspace.r_en_audio;
+package ru.mixinspace.r_en_audio.activity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.TypedValue;
@@ -11,6 +10,8 @@ import android.widget.TableLayout;
 import android.widget.TableRow;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import ru.mixinspace.r_en_audio.R;
 
 public class PartsActivity extends AppCompatActivity {
 

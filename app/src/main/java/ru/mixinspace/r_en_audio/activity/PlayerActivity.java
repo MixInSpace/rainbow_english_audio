@@ -1,4 +1,4 @@
-package ru.mixinspace.r_en_audio;
+package ru.mixinspace.r_en_audio.activity;
 
 import android.media.AudioManager;
 import android.media.MediaPlayer;
@@ -22,7 +22,12 @@ import java.util.Timer;
 import java.util.TimerTask;
 import java.util.concurrent.TimeUnit;
 
-public class PlayerActivity extends AppCompatActivity implements AudioChangeListener{
+import ru.mixinspace.r_en_audio.R;
+import ru.mixinspace.r_en_audio.audioPlayer.AudioAdapter;
+import ru.mixinspace.r_en_audio.audioPlayer.AudioChangeListener;
+import ru.mixinspace.r_en_audio.audioPlayer.AudioList;
+
+public class PlayerActivity extends AppCompatActivity implements AudioChangeListener {
 
     private final List<AudioList> audioLists = new ArrayList<>();
     private RecyclerView audioRecyclerView;
@@ -34,6 +39,8 @@ public class PlayerActivity extends AppCompatActivity implements AudioChangeList
     private SeekBar playerSeekBar;
     private ImageView playPauseImg;
     private Timer timer;
+    private int currentAudioPosition = 0;
+    private AudioAdapter audioAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +68,7 @@ public class PlayerActivity extends AppCompatActivity implements AudioChangeList
         getAudioDataFromXML(grade, part);
 
 
+
         playPauseCard.setOnClickListener(view -> {
             if (isPreparing) return;
             if (isPlaying) {
@@ -77,9 +85,39 @@ public class PlayerActivity extends AppCompatActivity implements AudioChangeList
                 playPauseImg.setImageResource(R.drawable.pause_icon);
             }
         });
-        nextBtn.setOnClickListener(view -> {
 
+        nextBtn.setOnClickListener(view -> {
+            if (isPreparing) return;
+            int nextAudioPosition = currentAudioPosition + 1;
+            if (nextAudioPosition>=audioLists.size()){
+                nextAudioPosition = 0;
+            }
+
+            audioLists.get(currentAudioPosition).setPlaying(false);
+            audioLists.get(nextAudioPosition).setPlaying(true);
+
+            audioAdapter.updateList(audioLists);
+            audioRecyclerView.scrollToPosition(nextAudioPosition);
+
+            onChanged(nextAudioPosition);
         });
+
+        prevBtn.setOnClickListener(view -> {
+            if (isPreparing) return;
+            int prevAudioPosition = currentAudioPosition - 1;
+            if (prevAudioPosition < 0){
+                prevAudioPosition = audioLists.size()-1;
+            }
+
+            audioLists.get(currentAudioPosition).setPlaying(false);
+            audioLists.get(prevAudioPosition).setPlaying(true);
+
+            audioAdapter.updateList(audioLists);
+            audioRecyclerView.scrollToPosition(prevAudioPosition);
+
+            onChanged(prevAudioPosition);
+        });
+
         playerSeekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int pos, boolean fromUser) {
@@ -115,8 +153,8 @@ public class PlayerActivity extends AppCompatActivity implements AudioChangeList
             String[] audioComponents = audio.split(";");
             audioLists.add(new AudioList(audioComponents[0].trim(), audioComponents[1].trim(), false));
         }
-
-        audioRecyclerView.setAdapter(new AudioAdapter(audioLists, PlayerActivity.this));
+        audioAdapter = new AudioAdapter(audioLists, PlayerActivity.this);
+        audioRecyclerView.setAdapter(audioAdapter);
     }
 
     @Override
@@ -126,6 +164,8 @@ public class PlayerActivity extends AppCompatActivity implements AudioChangeList
             mediaPlayer.pause();
             mediaPlayer.reset();
         }
+
+        currentAudioPosition = position;
 
         mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
 
@@ -187,7 +227,7 @@ public class PlayerActivity extends AppCompatActivity implements AudioChangeList
 
     @Override
     protected void onDestroy() {
-        if (isPlaying || isPaused){
+        if (isPlaying || isPaused || mediaPlayer.isPlaying() || isPreparing) {
             mediaPlayer.reset();
 
             timer.purge();
@@ -207,6 +247,7 @@ public class PlayerActivity extends AppCompatActivity implements AudioChangeList
         super.onStop();
     }
 
+    @Override
     public boolean isPreparing() {
         return isPreparing;
     }

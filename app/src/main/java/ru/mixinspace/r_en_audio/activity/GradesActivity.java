@@ -1,4 +1,4 @@
-package ru.mixinspace.r_en_audio;
+package ru.mixinspace.r_en_audio.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import ru.mixinspace.r_en_audio.R;
 
 public class GradesActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package ru.mixinspace.r_en_audio;
+package ru.mixinspace.r_en_audio.audioPlayer;
 
 import java.net.URL;
 
