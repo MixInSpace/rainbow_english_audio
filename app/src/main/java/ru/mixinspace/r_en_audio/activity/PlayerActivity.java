@@ -172,8 +172,8 @@ public class PlayerActivity extends AppCompatActivity implements AudioChangeList
         try {
             String audioLink = audioLists.get(position).getAudioLink();
             mediaPlayer.setDataSource(audioLink);
-            mediaPlayer.prepareAsync();
             isPreparing = true;
+            mediaPlayer.prepareAsync();
         } catch (IOException e) {
             Toast.makeText(PlayerActivity.this, "Unable to load this Audio", Toast.LENGTH_SHORT).show();
         }
@@ -212,6 +212,7 @@ public class PlayerActivity extends AppCompatActivity implements AudioChangeList
         },500,500);
 
         mediaPlayer.setOnCompletionListener(mediaPlayer -> {
+            if(isPreparing) return;
             mediaPlayer.pause();
             mediaPlayer.seekTo(0);
 
